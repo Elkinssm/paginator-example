@@ -1,0 +1,7 @@
+{
+  "subPackageBuildType": "shared",
+  "pages": ["pages/index/index"],
+  "window": {
+    "defaultTitle": "Paginador Ejemplo"
+  }
+}

@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="header">
+    <text class="title">Paginador de Ejemplo</text>
+  </view>
+  <view class="content">
+    <view class="item-container" id="item-container">
+      <block a:for="{{dataset}}">
+        <view class="item">{{item}}</view>
+      </block>
+    </view>
+    <view class="navigation-container" id="navigation-container">
+      <block a:for="{{navigationButtons}}">
+        <button class="navigation-button" data-page="{{item}}" onTap="changePage">
+          {{item}}
+        </button>
+      </block>
+    </view>
+  </view>
+</view>
